@@ -1,0 +1,66 @@
+body{
+    background-image: url('/img/pexels-moose-photos-1037992.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-attachment:fixed; 
+    color: white;
+}
+
+#left{
+    border: rgb(255, 0, 0) solid 1px;
+    display: inline-block;
+    margin: 4px 4px;
+    padding: 6px 12px;
+}
+#left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+#navbar{
+    font-family: 'Changa One', cursive;
+    border: white solid 5px;
+    border-radius: 28px;
+    display: block;
+    width: 50%;
+    margin: -20px auto;
+    background-color: rgb(232 240 186);
+}
+#navbar li{
+    display: inline-block;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #cbb52e;
+    font-size: 22px;
+}
+#navbar li a:hover, #navbar li a:active{
+    text-decoration: underline;
+    color: rgb(192, 106, 48);
+}
+
+#foot{
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 3px;
+    background: white;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 9px;
+    height: 106px;
+    width: 99%;
+}
+#p1{
+    color: black;
+    opacity: 1;
+    font-weight: 500;
+    font-size: larger;
+    margin: 16px 21px;
+}
+#p2{
+    color: black;
+    opacity: 1;
+    margin: 5px 21px;
+}
