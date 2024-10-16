@@ -1,0 +1,153 @@
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    font-family: 'Oswald', sans-serif;   
+}
+#home img{
+    range : no-repeat center center/cover;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+}
+
+/* navigation bar */
+#header::before{
+    background: url(/IMG/brooke-lark-nLBcOY8t9tc-unsplash.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 133%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.3;
+}
+.navsection{
+    position: sticky;
+    top: 0px;
+}
+#navbar{
+    
+    font-family: 'DynaPuff', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    background-color: rgb(143 237 67);
+    justify-content: center;
+    border-radius: 1rem;
+}
+#navbar a{
+    text-decoration: none;
+    border-radius: 1rem;
+    color: black;
+    margin: 0.7rem 0.7rem;
+    padding: 0.4rem 1.2rem;
+}
+#navbar a:hover{
+    background-color: rgb(21, 20, 20);
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+/* menu */
+#menu{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+#menuh1{
+    margin-top: 5rem;
+}
+.box{
+    border: 0.2rem solid yellowgreen;
+    border-radius: 0.6rem;
+    background-color: rgb(233, 239, 223);
+    font-family: 'Oswald', sans-serif;
+    height: 17.5rem;
+    width: 15.62rem;
+    text-align: center;
+    margin: 0.31rem 0.31rem;
+    padding: 0.75rem 0.2rem;
+    overflow:hidden;
+}
+.box img{
+    max-height: 10.63rem;
+    max-width: 10.63rem;
+}
+
+/* services */
+#services{
+    margin: 2rem 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+#servicesh1{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+#services::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 43%;
+    /* height: 100%; */
+    left: 0px;
+    background: url(/IMG/ella-olsso33n-oPBjWBCcAEo-unsplash.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.3;
+    border-radius: 1.5rem;
+}
+#headline{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#expertise{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* about - us */
+#aboutush1{
+    color: white;
+    font-size: 2rem;
+}
+#aboutus::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    left: 0px;
+    background: url(/IMG/About\ us.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+    border-radius: 1.2rem;
+}
+#aboutus{
+    display: flex;
+    flex-direction: column;
+}
+.aboutuslogo{
+    text-align: center;
+    padding: 0.3rem 0rem;
+}
+.aboutuslogo:hover{
+    text-decoration: underline;
+    color: white;
+}
+#aboutus img{
+    filter: invert();
+    width: 2rem;
+    height: 2rem;
+}
+#aboutus a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* some common class */
+.center{
+    text-align: center;
+    justify-content: center;
+}
