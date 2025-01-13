@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Mail Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- kashyap radadiya -->
+    <div class="maincontainer">
+
+        <!-- navigation bar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/logoWhite.png" alt="LogoByKashyap" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showHome()">Home</a></li>
+                <li><a href="#" onclick="showAbout()">About</a></li>
+            </ul>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="homeSection" class="section">
+            <div class="email-checker">
+                <p class="email-label">Check if it's Spam or not :</p>
+                <textarea id="emailInput" placeholder="Paste your email here..." oninput="adjustTextArea()"></textarea>
+                <button id="checkEmailBtn">Check</button>
+            </div>
+            <div id="result" class="result-box"></div>
+
+        </section> 
+
+        <!-- About Section -->
+        <section id="aboutSection" class="section" style="display:none;">
+            <div class="about-container">
+                <h1>About the Project</h1>
+                <p>
+                    Spam Mail Detection is a project that aims to automatically detect and classify spam emails using advanced machine learning algorithms. 
+                    The project utilizes Natural Language Processing (NLP) techniques to analyze the content of emails and identify patterns associated with spam messages.
+                </p>
+                <p>
+                    By detecting spam emails, this system helps users avoid phishing attempts, malicious attachments, and other unwanted content. It also assists in filtering out unnecessary advertisements and keeps the inbox organized.
+                </p>
+
+
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>Machine Learning (ML)</li>
+                    <li>Natural Language Processing (NLP)</li>
+                    <li>Python (scikit-learn, TensorFlow)</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    
+                </ul>
+
+
+                <h2>About Us</h2>
+                <p>
+                    Hello, I am <strong>Kashyap Radadiya</strong>, and we are passionate students of SSASIT. We created this project to gain deeper knowledge in the field of machine learning, artificial intelligence, and email security. we enjoy developing projects that improve user experiences and make technology safer for everyone.
+                </p>
+                <p>
+                    <strong>Enrollment No:</strong> 220760116050<br>
+                    <strong>College Name:</strong> SSASIT<br>
+                </p>
+
+                
+            </div>
+        </section>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
