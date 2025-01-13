@@ -1,0 +1,269 @@
+$dark: #b96930;
+$primary: #d9a767;
+
+
+
+//Navbar start
+
+
+.flw {
+    height: 40px;
+    width: 40px;
+}
+
+.bb {
+    font-family: cursive !important;
+    color: white !important;
+    background-color: $primary !important;
+}
+
+.aav:hover {
+    color: $primary !important;
+}
+
+.iteams {
+    color: $dark !important;
+}
+
+.iteams:hover {
+    color: $primary !important;
+}
+
+.login1 ul {
+    list-style: none !important;
+}
+
+// Navbar End
+
+
+
+
+//Home start
+
+
+
+.ff {
+    font-family: cursive !important;
+}
+
+.mm {
+    background-image: url(../Img/mommy.jpg);
+    height: 560px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+}
+
+.btn:hover {
+    background-color: $dark !important;
+    color: black !important;
+}
+
+
+.heffact:hover .right {
+    padding-left: 9px !important;
+}
+
+.saqure {
+    height: 27px;
+    width: 27px;
+    background-color: $dark;
+    rotate: 40deg;
+    right: 90px;
+    top: 67px;
+}
+
+.cardbg {
+    background-color: $dark !important;
+}
+
+.oraganic {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.sbm {
+    top: 0;
+    right: 25%;
+}
+
+.sbm:hover {
+    background-color: $dark !important;
+}
+
+.vegitables {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.cmd:hover .values {
+    transform: scale(0.8, 0.8);
+    transition: 2s;
+}
+
+
+//Home end
+
+
+
+
+//Product start
+
+
+
+
+.btn1:hover {
+    background-color: $dark !important;
+    border: 1px solid $dark !important;
+    color: white !important;
+}
+
+
+
+
+
+//Product end
+
+
+
+
+
+// Blog start
+
+
+.total:hover h4 {
+    color: #853e0c !important;
+}
+
+.total .degree:hover {
+    transform: rotate(10deg) scale(1.22);
+    transition: all 2s !important;
+}
+
+.degree {
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.shop-page a {
+    display: block !important;
+    padding: 10px 17px !important;
+    color: black !important;
+
+    &:hover {
+        background-color: $dark !important;
+        color: white !important;
+    }
+}
+
+
+
+
+// Blog end
+
+
+
+
+// Contact.html
+
+
+.mm-1 {
+    background-image: url("../Img/mommy1.jpg");
+    height: 500px !important;
+    width: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.footer-ic {
+    color: $dark;
+
+    &:hover {
+        color: black;
+        background-color: $dark;
+        border: 1px solid $dark !important;
+    }
+}
+
+.ref:hover {
+    color: #853e0c !important;
+}
+
+
+
+// Contact end
+
+
+
+//Login start
+
+
+.login {
+    background-image: url("../Img/login.jpg");
+    height: 550px !important;
+    width: 100% !important;
+    background-repeat: no-repeat !important;
+    border-radius: 5% !important;
+}
+
+
+
+//Login end
+
+
+
+// Cart start
+
+
+.tableh {
+    text-align: left !important;
+    padding: 5px !important;
+    color: white !important;
+    background-color: $primary !important;
+    font-weight: normal !important;
+}
+
+.tabled {
+    padding: 10px 5px !important;
+}
+
+.tabled input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+.tabled a {
+    color: $primary;
+    font-size: 12px;
+}
+
+.tabled img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 10px !important;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: 3px solid $primary;
+    max-width: 480px;
+}
+
+.tabled:last-child{
+    text-align: right;
+}
+
+.tableh:last-child{
+    text-align: right;
+}
+
+
+
+// Cart End
